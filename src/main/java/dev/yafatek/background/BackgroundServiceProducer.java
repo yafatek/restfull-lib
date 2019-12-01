@@ -1,0 +1,1 @@
+package dev.yafatek.background;public interface BackgroundServiceProducer<T> {}

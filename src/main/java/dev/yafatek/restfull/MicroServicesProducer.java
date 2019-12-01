@@ -1,0 +1,1 @@
+package dev.yafatek.restfull;public interface MicroServicesProducer {}
