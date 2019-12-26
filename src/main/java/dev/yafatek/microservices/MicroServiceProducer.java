@@ -1,0 +1,1 @@
+package dev.yafatek.microservices;public interface MicroServiceProducer {}
