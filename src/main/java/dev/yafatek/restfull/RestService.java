@@ -1,1 +1,1 @@
-package dev.yafatek.restfull;public interface RestService<T> {	T index();	T index(Object param);}
+package dev.yafatek.restfull;import java.util.List;public interface RestService<T> {	List<T> indexAll();	T indexOne(Object param);	List<T> showAll();	T showOne(Object params);	List<T> deleteAll();	T deleteOne(Object params);	List<T> updateAll();	T updateOne(Object params);}

@@ -1,1 +1,1 @@
-package dev.yafatek.operations;public interface OperationServiceProducer<T> {}
+package dev.yafatek.operations;public interface OperationServiceProducer {	OperationServiceFactory createOperationFactory(String operationName);}

@@ -1,1 +1,1 @@
-package dev.yafatek.operations;public interface OperationService {}
+package dev.yafatek.operations;public interface OperationService<T> {}

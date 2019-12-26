@@ -1,1 +1,1 @@
-package dev.yafatek.background;public interface BackgroundServiceProducer<T> {}
+package dev.yafatek.background;public interface BackgroundServiceProducer {	BackgroundServiceFactory createBackgroundFactory(String serviceName);}

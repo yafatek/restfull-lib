@@ -1,0 +1,1 @@
+package dev.yafatek.restfull;import org.junit.jupiter.api.Test;import static org.junit.jupiter.api.Assertions.*;class RestFullServicesTest {	@Test	void index() {	}	@Test	void testIndex() {	}	@Test	void show() {	}	@Test	void testShow() {	}	@Test	void delete() {	}	@Test	void testDelete() {	}	@Test	void update() {	}	@Test	void testUpdate() {	}}
