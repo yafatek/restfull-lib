@@ -1,1 +1,1 @@
-package dev.yafatek.microservices;public interface MicroServiceProducer {}
+package dev.yafatek.microservices;/** * Interface to Produce the Factory Interface Objects. */public interface MicroServiceProducer {	/**	 * Method to Create the Microservice based on its name passed using the parameter: (String microService);	 *	 * @param microService factoryClass (just a string to decide witch Class to Call)	 * @return Factory Class object(Class Implementing the MicroServiceFactory Interface);	 */	MicroServiceFactory createMicroService(String microService);}
