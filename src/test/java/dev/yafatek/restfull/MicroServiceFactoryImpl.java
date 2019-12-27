@@ -1,0 +1,1 @@
+package dev.yafatek.restfull;import dev.yafatek.microservices.MicroService;import dev.yafatek.microservices.MicroServiceFactory;public class MicroServiceFactoryImpl implements MicroServiceFactory {	@Override	public MicroService createEndMicroService() {		return new MicroServiceImpl();	}}
