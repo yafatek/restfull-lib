@@ -1,1 +1,1 @@
-package dev.yafatek.operations;public interface OperationServiceFactory {}
+package dev.yafatek.operations;/** * Interface to Create the End Class Object that implements the interface {@OperationService} * * @author Feras Emad Alawadi * @email:ferasawady@gmail.com */public interface OperationServiceFactory {	/**	 * Method that Creates the implementation class	 *	 * @return Class object that implements OperationService interface.	 */	OperationService createOperationServices();}

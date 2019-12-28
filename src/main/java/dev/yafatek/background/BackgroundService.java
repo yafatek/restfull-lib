@@ -1,1 +1,1 @@
-package dev.yafatek.background;public interface BackgroundService {}
+package dev.yafatek.background;/** * Interface to Indicate the usage of any service that should be scheduled to accomplish a mission . * * @author Feras Emad Alawadi * * @email:ferasawady@gmail.com */public interface BackgroundService<T> {	/**	 * Method to Process Data	 */	void process();	/**	 * Method to get data from DataSource.	 *	 * @return T Object Maps the actual Data.	 */	T getData();}

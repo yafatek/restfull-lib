@@ -1,1 +1,1 @@
-package dev.yafatek.operations;public interface OperationService<T> {}
+package dev.yafatek.operations;/** * Interface to Create Operations in Background * * @param <T> * @author Feras Emad Alawadi * @email:ferasawady@gmail.com */public interface OperationService<T> {	/**	 * interface to Perform Function.	 */	void perform();	/**	 * Method to Get the Data to Perform some operation later.	 *	 * @return object of Type T that mapped when implementing the Interface.	 */	T getData();}

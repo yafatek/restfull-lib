@@ -1,1 +1,1 @@
-package dev.yafatek.microservices;/** * Factory Class to Create the End Class Object */public interface MicroServiceFactory {	/**	 * Method to Create the Object of the End Class	 */	MicroService createEndMicroService();}
+package dev.yafatek.microservices;/** * Factory Class to Create the End Class Object * * @author Feras Emad Alawadi * @email:ferasawady@gmail.com */public interface MicroServiceFactory {	/**	 * Method to Create the Object of the End Class	 */	MicroService createEndMicroService();}
