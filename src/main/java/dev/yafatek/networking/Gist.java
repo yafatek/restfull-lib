@@ -1,0 +1,1 @@
+package dev.yafatek.networking;import java.util.Map;public class Gist {	Map<String, GistFile> files;	static class GistFile {		String content;	}}
