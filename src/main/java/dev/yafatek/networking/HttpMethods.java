@@ -1,0 +1,1 @@
+package dev.yafatek.networking;import java.io.IOException;public interface HttpMethods<T> {	T get() throws IOException;	T post();	T delete();	T update();}
