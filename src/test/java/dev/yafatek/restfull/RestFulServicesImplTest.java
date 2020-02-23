@@ -1,0 +1,1 @@
+package dev.yafatek.restfull;import org.junit.Test;public class RestFulServicesImplTest {	@Test	public void testRestFull() {		//		RestFulServicesImpl restFullServices = RestFulServicesImpl.getInstance();		RestService<String> restService = restFullServices.createRestFulService();		System.out.println(restService.deleteAll());	}}
